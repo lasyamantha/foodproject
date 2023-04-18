@@ -1,0 +1,63 @@
+/* Styling for the skip to content button */
+.skip-link {
+    position: absolute;
+    top: -40px;
+    left: 0;
+    background: #000;
+    color: #fff;
+    padding: 10px;
+    z-index: 999;
+  }
+  .skip-link:focus {
+        top: 0;
+  }
+  nav ul {
+        list-style: none;
+        display: flex;
+  }
+  nav {
+      background-color: #0555a5;
+      overflow: hidden;
+      font-weight: bold;
+  }
+
+  nav a {
+      float: left;
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+      font-size: 17px;
+  }
+
+  nav a:hover {
+      background-color: #ddd;
+      color: black;
+  }
+
+  nav .active {
+      color: white;
+      text-decoration: underline;
+  }	
+  iframe {
+  display: block;
+  margin: 0 auto;
+    }
+
+  header {
+      width: 100%;
+      height: auto; 
+      background-color: #f6f7f7; 
+  }
+  .logo {
+      max-width: 300px; /* adjust to desired size */
+      margin: 0 auto; /* center logo horizontally */
+      padding: 10px; /* add padding for spacing */
+      text-align: center;
+  }
+  .logo img {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+  }
